@@ -1,0 +1,175 @@
+body{
+	width: 990px;
+	margin: 10px auto;
+	font-family: Verdana;
+	color: #8787BA;
+}
+
+.header-container{
+	width: 100%;
+	height: 100%; 
+	background-color: #f0ebf0;
+	display: flex;
+	flex-direction: column;
+	justify-content: safe center;
+	align-items: flex-start;
+	box-sizing: border-box;
+	padding: 10px 112px;
+	position: relative;
+}
+.foto_a{
+	background-image: url(img/projetos_dutos_jpg.jpg);
+	background-position: right;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	justify-content: safe center;
+	align-items: flex-start;
+	margin-right: auto;
+ 	width: 50%;
+	border-radius: 100%;
+}
+
+h1{
+	font-size: 50px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: black;
+    text-align: right;
+
+}
+
+
+.checkbox-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-midia a{
+
+	text-decoration: none;
+	color: #122b42;
+	padding: 1rem 4rem;
+	border: 2px solid #122b42;
+	min-width: 4rem;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	transition: 0.5s ease-in-out;
+}
+
+
+.card-text{
+	width: 80%;
+	margin-left: auto;
+	letter-spacing: 1px;
+	text-align: justify;
+	color: rgb(109, 109, 109);
+}
+
+
+.menu{
+	position: absolute;
+	top: 28px;
+	right: 30px;
+	background-color: transparent;
+	height: 4px;
+	width: 10px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px #ffffff;
+	z-index: -1;
+	transition: 400ms case-in-out 0s;
+}
+.menu-itens{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+	opacity: 0;
+	visibility: hidden;
+	transition: 400ms case-in-out 0s;
+}
+
+.menu-itens ul{
+	list-style-type: none;
+}
+
+
+.menu-itens ul li a{
+    text-align: center;
+	color: #1E1E2A;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 40px;
+}
+
+.container {
+	height: auto;
+	width: 990px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 3rem;
+}
+
+.card-container{
+    padding: auto;
+	display: inline-block;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 90%;
+}
+
+.card{
+	width:150px;
+	height: 150px;
+	border-radius: 100%;
+	margin: 3rem 0 0 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #60E1E0;
+	background-image: url(img/projetos_dutos_jpg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: grayscale(0.5);
+	color: #1E1E2A;
+	cursor: pointer;
+	transition: 0.5s case-in-out;
+}
+
+.card-wrapper{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+
+.card-text{
+	width: 70%;
+	margin-left: auto;
+	letter-spacing: 1px;
+	text-align: justify;
+	color: rgb(109, 109, 109);
+}
+
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: #60E1E0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #1E1E2A;
+}
